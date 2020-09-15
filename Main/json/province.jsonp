@@ -1,0 +1,202 @@
+var provinces = [
+        {
+            "id": 0,
+            "name": "Дуротар",
+            "owner": 0,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 1,
+            "name": "Чёрная гора",
+            "owner": 0,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 2,
+            "name": "Сумеречное нагорье",
+            "owner": 0,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 3,
+            "name": "Лес Террокар",
+            "owner": 0,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 4,
+            "name": "Острова Эха",
+            "owner": 1,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 5,
+            "name": "Северные степи",
+            "owner": 1,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 6,
+            "name": "Пустошь Мок'Натал",
+            "owner": 1,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 7,
+            "name": "Мулгор",
+            "owner": 1,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 8,
+            "name": "Венгерберг",
+            "owner": 4,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 9,
+            "name": "Дол Блатанна",
+            "owner": 4,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 10,
+            "name": "Махакам",
+            "owner": 4,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 11,
+            "name": "Ард Каррайг",
+            "owner": 4,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 12,
+            "name": "Альд'рун",
+            "owner": 2,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 13,
+            "name": "Балмора",
+            "owner": 2,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 14,
+            "name": "Садрит Мора",
+            "owner": 2,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 15,
+            "name": "Тель Фир",
+            "owner": 2,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 16,
+            "name": "Велен",
+            "owner": 3,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 17,
+            "name": "Вызима",
+            "owner": 3,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 18,
+            "name": "Третогор",
+            "owner": 3,
+            "capitol": "да",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        },
+        {
+            "id": 19,
+            "name": "Оксенфурт",
+            "owner": 3,
+            "capitol": "нет",
+            "defence": 0,
+            "treasury": "нет",
+            "casern": "нет",
+            "chapel": "нет"
+        }
+    ]

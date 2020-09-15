@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Гусь</title>
+    <meta name="description" content="">
+  <meta name="keywords" content=" ">
+  <link rel="stylesheet" href="style/main.css"> <!--Основные стили css-->
+  <link rel="stylesheet" href="style/path.css"> <!--Пути для рисования провинций-->
+  <link rel="stylesheet" href="style/tabs.css"> <!--Стили вкладок-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src ="json/fraction.jsonp"></script> <!--JSON для фракций-->
+  <script src ="json/province.jsonp"></script> <!--JSON для провинций-->
+  <script src ="json/agent.jsonp"></script> <!--JSON для агентов-->
+  <script src ="json/ideology.jsonp"></script> <!--JSON для идеологий-->
+  <script src ="json/religion.jsonp"></script> <!--JSON для религий-->
+  <script src="style/main.js"></script> <!--Основной код JS-->
+</head>
+<body>
+  <main onload="MakeClicker()"> <!--Левый основной блок-->
+  <div class="map"> <!--Карта-->
+    <svg ViewBox = "0 0 1024 768"> <!--Поле для рисования провинций-->
+      <path class="region" id="Durotar" name="region" data="0">
+      </path>
+     <path class="region" id="BlackRock" name="region" data="1">
+      </path>
+      <path class="region" id="TwilightHighlands" name="region" data="2">
+      </path>
+      <path class="region" id="TerrokarForest" name="region" data="3">
+      </path>
+      <path class="region" id="EchoIsland" name="region" data="4">
+      </path>
+      <path class="region" id="NothernBarrens" name="region" data="5">
+      </path>
+      <path class="region" id="MokNatal" name="region" data="6">
+      </path>
+      <path class="region" id="Mulgor" name="region" data="7">
+      </path>
+      <path class="region" id="Vengerberg" name="region" data="8">
+      </path>
+      <path class="region" id="DolBlatanna" name="region" data="9">
+      </path>
+      <path class="region" id="Mahakam" name="region" data="10">
+      </path>
+      <path class="region" id="ArdCarraig" name="region" data="11">
+      </path>
+      <path class="region" id="Aldrun" name="region" data="12">
+      </path>
+      <path class="region" id="Balmora" name="region" data="13">
+      </path>
+      <path class="region" id="SadritMora" name="region" data="14">
+      </path>
+      <path class="region" id="TelFir" name="region" data="15">
+      </path>
+      <path class="region" id="Velen" name="region" data="16">
+      </path>
+      <path class="region" id="Vyzima" name="region" data="17">
+      </path>
+      <path class="region" id="Tretogor" name="region" data="18">
+      </path>
+      <path class="region" id="Oksenfurt" name="region" data="19">
+      </path>
+    </svg>
+    <img id = "imap" src="map2.svg" alt=""> <!--Фоновое изображение-->
+  </div>
+  </main>
+  <div class="right" id="fraction"> <!--Основное поле слева-->
+    <div class="tabs"> 
+      <input type="radio" name="inset" value="" id="tab_1" checked> <!--Вкладка "Фракция"-->
+    <label for="tab_1">Фракция</label>
+
+    <input type="radio" name="inset" value="" id="tab_2"> <!--Вкладка "Агенты"-->
+    <label for="tab_2">Агенты</label>
+    <div id="txt_1">
+        <p> <button type="button" onclick="MakeClicker()">Кнопка начала</button></p>
+    <p id="fractionName">Название фракции: <p>
+    <p id="fractionIdeology">Идеология: </p>
+    <p id="ideologyStat"></p>
+    <p id="fractionReligion">Религия: </p>
+    <p id="religionStat"></p>
+    <p id="fractionResourses"></p>
+    </div>
+    <div id="txt_2">
+        <p>Агенты</p>
+        <p id="agentWar">Военачальник: </p>
+        <p id="warStat"></p>
+        <p id="agentDip">Дипломат: </p>
+        <p id="dipStat"></p>
+        <p id="agentSpy">Тайный советник: </p>
+        <p id="spyStat"></p>
+        <p id="agentSte">Управитель: </p>
+        <p id="steStat"></p>
+        <p id="agentConf"></p>
+        <p id="confStat"></p> 
+    </div>
+    </div>
+  </div>
+  <div class="right" id="province">
+    <p id="provinceName">Название провинции: </p>
+    <p id="provinceCapitol"></p>
+    <p id="provinceDefence">Уровень укрепления: </p>
+    <p>Постройки:</p>
+    <li id="provinceTreasury">Сокровищница: </li>
+    <li id="provinceCasern">Казарма: </li>
+    <li id="provinceChapel">Часовня: </li>
+  </div>
+  <script>
+
+  </script>
+</body>
+</html>
